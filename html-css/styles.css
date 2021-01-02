@@ -12,3 +12,172 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 7vh;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    width: 30vh;
+    margin-left: 20px;
+    color: rgb(42, 171, 226);
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    margin-right: 20px;
+    color: white;
+    list-style: none;
+}
+
+section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-section {
+    width: 80vw;
+    height: 70vh;
+    margin: 20px;
+    display: flex;
+}
+
+#left-column {
+    height: 100%;
+    width: 75%;
+}
+
+#article-title {
+    margin: 30px;
+}
+
+#article-content {
+    margin: 30px;
+    font-size: 18px;
+}
+
+#right-column {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+#profile-image {
+    width: 70%;
+}
+
+#popular-articles {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#articles-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#article-list {
+    display: flex;
+    width: 80%;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#article {
+    width: 100%;
+}
+
+#image-gallery {
+    width: 80vw;
+    margin: 20px;
+    padding: 20px;
+}
+
+#image-header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#view-larger-image {
+    color: rgb(42, 171, 226);
+}
+
+#image-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#gallery-image {
+    width: 25%;
+    margin: 10px;
+}
+
+footer {
+    height: 7vh;
+    background-color: rgb(42, 171, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tagline {
+    color: rgb(37, 37, 37);
+    margin: 20px;
+}
+
+#help {
+    width: 4vh;
+    height: 4vh;
+    margin-right: 20px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: rgb(37, 37, 37);
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
